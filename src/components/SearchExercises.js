@@ -44,18 +44,18 @@ const handleSearch = async () => {
       <Typography fontWeight={700} sx={{
         fontSize: { lg: '44px', xs: '30px'}}}
         mb="50px" textAlign="center">
-        Awesome Exercises You <br />
-        Should Know
+        The Best Exercises You <br />
+        Should Try
       </Typography>
       <Box position="relative" mb="72px">
         <TextField 
         sx={{
           input: { 
             fontWeight: '700', border: 
-            'none', borderRadius: '4px'},
+            'none', borderRadius: 'none'},
             width: { lg: '800px', xs: '350px'},
             backgroundColor: "#fff",
-            borderRadius: "40px"
+            borderRadius: "none"
         }}
           height="76px"
           value={search}
@@ -65,7 +65,7 @@ const handleSearch = async () => {
           />
           <Button className="search-btn"
             sx={{
-              bgcolor: '#FF2625',
+              bgcolor: '#98FB98',
               color: '#fff',
               textTransform: 'none',
               width: { lg: '175px', xs: '80px'},
