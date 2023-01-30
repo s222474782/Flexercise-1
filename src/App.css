@@ -57,9 +57,13 @@ body {
     position: absolute;
     right: 40px;
     top: 0px;
-    width: 800px;
+    width: 700px;
     height: 900px;
-    margin-top: -330px;
+    margin-top: -300px;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.8;
+    
   
   }
   
